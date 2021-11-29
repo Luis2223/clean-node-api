@@ -3,6 +3,9 @@
         // Aonde vai ser gerado o código em .js
         "outDir": "./dist",
         // Obter os modulos em
-        "module": "commonjs"       
+        "module": "commonjs",
+        "target": "es2020",
+        "esModuleInterop": true,
+        "allowJs": true    
     }
 }
